@@ -16,13 +16,13 @@ def exibir_ascii_art():
 def exibir_menu():
     print("\nMenu:")
     print("[1] Iniciar Sniffer")
-    print("[2] Sobre")
+    print("[2] Como usar")
     print("[3] Sair")
 
 def sobre():
     limpartela()
     exibir_ascii_art()
-    print("\nSobre o SnifferPy:")
+    print("\Como usar o SnifferPy:")
     print("Defina a porta de rede e a quantidade de pacotes a serem capturados. Use netsh para identificar o nome de suas interfaces.")
     print("Use com responsabilidade.")
     input("\nAperte qualquer tecla para voltar ao Menu...")
